@@ -1,0 +1,43 @@
+############# Spanish navigation ##############
+
+# main menu
+[[main]]
+name = "Inicio"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Sobre nosotros"
+url = "/sobre-nosotros"
+weight = 2
+
+#[[main]]
+#name = "Blog"
+#url = "/blog"
+#weight = 3
+
+[[main]]
+name = "Equipo"
+url = "/equipo"
+weight = 3
+
+[[main]]
+name = "Contacto"
+url = "/contacto"
+weight = 4
+
+# footer menu
+[[footer]]
+name = "Sobre nosotros"
+url = "/sobre-nosotros"
+weight = 1
+
+[[footer]]
+name = "Contacto"
+url = "/contacto"
+weight = 2
+
+[[footer]]
+name = "Politica de privacidad"
+url = "/politica-de-privacidad"
+weight = 3
