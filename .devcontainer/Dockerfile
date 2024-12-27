@@ -1,9 +1,9 @@
 # Use an official node image as a parent image
-FROM node:20
+FROM node:22
 
 # Set environment variables for versions
-ARG HUGO_VERSION=0.126.1
-ARG GO_VERSION=1.22.3
+ARG HUGO_VERSION=0.140.1
+ARG GO_VERSION=1.23.4
 
 # Install dependencies
 RUN apt-get update && \
