@@ -176,3 +176,9 @@ lazy = true
 [[params.plugins.js]]
 link = "plugins/youtube-lite.js"
 lazy = true
+
+[sitemap]
+  changeFreq = 'monthly'
+  disable = false
+  filename = 'sitemap.xml'
+  priority = -1

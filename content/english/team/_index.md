@@ -1,7 +1,7 @@
 ---
-title: "Hey!"
-meta_title: "About"
-description: "this is meta description"
+title: "Meet our team"
+meta_title: "Meet Our Team | Cybersecurity Innovators"
+description: "👨‍💻 Meet the team driving innovation in cybersecurity. 🌟 Experts committed to delivering automated, affordable and scalable solutions to protect your business. 🤝 Together, we work to ensure your security 24/7."
 image: "/images/avatar.png"
 draft: false
 ---

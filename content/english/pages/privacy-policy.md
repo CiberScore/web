@@ -1,9 +1,9 @@
 ---
 title: "Privacy"
 # meta title
-meta_title: ""
+meta_title: "Privacy Policy | Commitment to your Security and Trust"
 # meta description
-description: "This is meta description"
+description: "Read our Privacy Policy to learn how we protect your data and ensure the security of your information. Your trust is our priority."
 # save as draft
 draft: false
 ---

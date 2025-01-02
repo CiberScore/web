@@ -63,7 +63,7 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["Pymes", "Ciberseguridad"]
-description = "CiberScore Desription"
+description = "🔒 Protege tu negocio con soluciones de ciberseguridad automatizadas, asequibles y escalables. 🌐 Monitoreo 24/7, tecnología IoT y soporte continuo para que te enfoques en crecer. 🚀 Seguridad al alcance de todos, diseñada para PYMEs como la tuya."
 author = "CiberScore"
 twitter = ""
 image = "images/og-image.png"

@@ -1,7 +1,7 @@
 ---
-title: "Hey!"
-meta_title: "About"
-description: "this is meta description"
+title: "Conoce a nuestro equipo"
+meta_title: "Conoce a Nuestro Equipo | Innovadores en Ciberseguridad"
+description: "👨‍💻 Conoce al equipo que impulsa la innovación en ciberseguridad. 🌟 Expertos comprometidos con ofrecer soluciones automatizadas, accesibles y escalables para proteger tu negocio. 🤝 Juntos, trabajamos para garantizar tu seguridad 24/7."
 image: "/images/avatar.png"
 draft: false
 ---
