@@ -1,11 +1,10 @@
 ---
-title: "Conoce a nuestro equipo"
-meta_title: "Conoce a Nuestro Equipo | Innovadores en Ciberseguridad"
-description: "👨‍💻 Conoce al equipo que impulsa la innovación en ciberseguridad. 🌟 Expertos comprometidos con ofrecer soluciones automatizadas, accesibles y escalables para proteger tu negocio. 🤝 Juntos, trabajamos para garantizar tu seguridad 24/7."
+title: "Meet our team"
+meta_title: "Meet Our Team | Cybersecurity Innovators"
+description: "👨‍💻 Meet the team driving innovation in cybersecurity. 🌟 Experts committed to delivering automated, affordable and scalable solutions to protect your business. 🤝 Together, we work to ensure your security 24/7."
 image: "/images/avatar.png"
 draft: false
 ---
-
 
 <style>
 
@@ -329,7 +328,7 @@ body {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="/images/pablo-ruiz.jpg">
+          <img class="team-member-image" src="/images/team/pablo-ruiz.jpg">
         </div>
         <p class="text-blk name">
           Pablo Ruiz del Olmo
@@ -347,7 +346,7 @@ body {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="/images/avatar-sm.png">
+          <img class="team-member-image" src="/images/team/sergio-fernandez.png">
         </div>
         <p class="text-blk name">
           Sergio Fernández del Campo
@@ -365,7 +364,7 @@ body {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="/images/cesar.jpg">
+          <img class="team-member-image" src="/images/team/cesar-caceres.jpg">
         </div>
         <p class="text-blk name">
           César Cáceres Taladriz
@@ -383,7 +382,7 @@ body {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="/images/isaac.jpg">
+          <img class="team-member-image" src="/images/team/isaac-lozano.jpg">
         </div>
         <p class="text-blk name">
           Isaac Lozano Osorio
@@ -401,7 +400,7 @@ body {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="/images/avatar-sm.png">
+          <img class="team-member-image" src="/images/team/raul-martin.png">
         </div>
         <p class="text-blk name">
           Raúl Martín Santamaría
@@ -419,10 +418,10 @@ body {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="/images/sergio-perez.jpg">
+          <img class="team-member-image" src="/images/team/sergio-perez.jpg">
         </div>
         <p class="text-blk name">
-          Sergio Pérez Peló
+          Sergio Pérez <br> Peló
         </p>
         <p class="text-blk position">
           Phd

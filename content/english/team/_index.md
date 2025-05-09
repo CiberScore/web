@@ -328,7 +328,7 @@ body {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="/images/pablo-ruiz.jpg">
+          <img class="team-member-image" src="/images/team/pablo-ruiz.jpg">
         </div>
         <p class="text-blk name">
           Pablo Ruiz del Olmo
@@ -346,7 +346,7 @@ body {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="/images/avatar-sm.png">
+          <img class="team-member-image" src="/images/team/sergio-fernandez.png">
         </div>
         <p class="text-blk name">
           Sergio Fernández del Campo
@@ -364,7 +364,7 @@ body {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="/images/cesar.jpg">
+          <img class="team-member-image" src="/images/team/cesar-caceres.jpg">
         </div>
         <p class="text-blk name">
           César Cáceres Taladriz
@@ -382,7 +382,7 @@ body {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="/images/isaac.jpg">
+          <img class="team-member-image" src="/images/team/isaac-lozano.jpg">
         </div>
         <p class="text-blk name">
           Isaac Lozano Osorio
@@ -400,7 +400,7 @@ body {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="/images/avatar-sm.png">
+          <img class="team-member-image" src="/images/team/raul-martin.png">
         </div>
         <p class="text-blk name">
           Raúl Martín Santamaría
@@ -418,7 +418,7 @@ body {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="/images/sergio-perez.jpg">
+          <img class="team-member-image" src="/images/team/sergio-perez.jpg">
         </div>
         <p class="text-blk name">
           Sergio Pérez <br> Peló
