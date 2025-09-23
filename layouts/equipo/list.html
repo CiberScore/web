@@ -39,7 +39,7 @@
               <div class="lg:col-4 md:col-6 mb-8">
                 <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg p-8 text-center h-full">
                   <div class="mb-6">
-                    {{ partial "image" (dict "Src" .image "Alt" .name "Size" "200x200" "Class" "rounded-full mx-auto") }}
+                    <img src="{{ .image | absURL }}" alt="{{ if eq site.Language.Lang "es" }}Foto de {{ .name }}{{ else }}Photo of {{ .name }}{{ end }}" title="{{ if eq site.Language.Lang "es" }}{{ .name }} - Miembro del equipo{{ else }}{{ .name }} - Team member{{ end }}" class="w-48 h-48 rounded-full mx-auto object-cover" />
                   </div>
                   <h3 class="h5 mb-2">{{ .name }}</h3>
                   <p class="text-primary font-semibold mb-4">{{ .designation }}</p>
@@ -52,6 +52,8 @@
                       {{ range .social }}
                         <a class="text-dark hover:text-primary dark:text-white dark:hover:text-darkmode-primary"
                            href="{{ .link | safeURL }}"
+                           title="{{ if eq site.Language.Lang "es" }}Ver perfil en {{ .name }}{{ else }}View profile on {{ .name }}{{ end }}"
+                           aria-label="{{ .name }}"
                            target="_blank"
                            rel="noopener">
                           <i class="{{ .icon }} text-xl"></i>
@@ -79,7 +81,7 @@
               <p class="mb-8 text-lg">{{ .content | markdownify }}</p>
               {{ with .button }}
                 {{ if .enable }}
-                  <a class="btn btn-primary" href="{{ .link | safeURL }}">
+                  <a class="btn btn-primary" href="{{ .link | safeURL }}" title="{{ .label }}" aria-label="{{ .label }}">
                     {{ .label }}
                     <i class="fa fa-arrow-right pl-2"></i>
                   </a>

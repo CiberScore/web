@@ -5,6 +5,8 @@
         <!-- navbar brand/logo -->
         <a
           class="navbar-brand inline-block"
+          title="{{ if eq site.Language.Lang "es" }}Ir a la página principal{{ else }}Go to homepage{{ end }}"
+          aria-label="{{ if eq site.Language.Lang "es" }}Página principal{{ else }}Homepage{{ end }}"
           href="{{ site.Home.RelPermalink }}">
           {{ partial "logo" }}
         </a>
@@ -14,6 +16,8 @@
           {{ range site.Menus.footer }}
             <li class="m-3 inline-block">
               <a
+                title="{{ if eq site.Language.Lang "es" }}Ir a {{ .Name }}{{ else }}Go to {{ .Name }}{{ end }}"
+                aria-label="{{ .Name }}"
                 {{ if findRE `^http` .URL }}
                   target="_blank" rel="noopener"
                 {{ end }}
@@ -36,6 +40,7 @@
             <li>
               <a
                 target="_blank"
+                title="{{ if eq site.Language.Lang "es" }}Visitar nuestro {{ .name }}{{ else }}Visit our {{ .name }}{{ end }}"
                 aria-label="{{ .name }}"
                 rel="nofollow noopener"
                 href="{{ .link | safeURL }}">

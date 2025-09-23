@@ -5,8 +5,18 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 
+[en.params.navigation_button]
+enable = true
+label = "Access platform"
+link = "https://app.ciberscore.es"
+
 [es]
 languageName = "Es"
 languageCode = "es-es"
 contentDir = "content/spanish"
 weight = 1
+
+[es.params.navigation_button]
+enable = true
+label = "Acceder a la plataforma"
+link = "https://app.ciberscore.es"

@@ -1,0 +1,35 @@
+<!-- Logo -->
+{{ $logo := site.Params.logo }}
+{{ $logo_darkmode := site.Params.logo_darkmode }}
+{{ $logo_width := site.Params.logo_width }}
+{{ $logo_height := site.Params.logo_height }}
+
+{{ if $logo }}
+  <a href="{{ site.BaseURL | relLangURL }}" title="Ir a la página principal de {{ site.Title }}" aria-label="Página principal">
+    <img
+      width="{{ if $logo_width }}{{ $logo_width }}{{ else }}150{{ end }}"
+      height="{{ if $logo_height }}{{ $logo_height }}{{ else }}30{{ end }}"
+      src="{{ $logo | absURL }}"
+      alt="{{ site.Title }} - Logo"
+      title="Logo de {{ site.Title }}"
+      class="max-h-full"
+      {{ if $logo_darkmode }}
+        style="display: block;"
+      {{ end }}
+    />
+    {{ if $logo_darkmode }}
+      <img
+        width="{{ if $logo_width }}{{ $logo_width }}{{ else }}150{{ end }}"
+        height="{{ if $logo_height }}{{ $logo_height }}{{ else }}30{{ end }}"
+        src="{{ $logo_darkmode | absURL }}"
+        alt="{{ site.Title }} - Logo modo oscuro"
+        title="Logo de {{ site.Title }} para modo oscuro"
+        class="hidden max-h-full dark:block"
+      />
+    {{ end }}
+  </a>
+{{ else }}
+  <a href="{{ site.BaseURL | relLangURL }}" title="Ir a la página principal de {{ site.Title }}" aria-label="Página principal">
+    <span>{{ site.Params.logo_text | default site.Title }}</span>
+  </a>
+{{ end }}

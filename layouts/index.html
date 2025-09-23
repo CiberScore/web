@@ -16,6 +16,8 @@
                 <a
                   class="btn btn-primary"
                   href="{{ .link | absURL }}"
+                  title="Acceder a: {{ .label }}"
+                  aria-label="{{ .label }}"
                   {{ if strings.HasPrefix .link `http` }}
                     target="_blank" rel="noopener"
                   {{ end }}>
@@ -47,7 +49,7 @@
               md:order-2
             {{ end }} md:col-5 mb-6">
             {{ if .image }}
-              <img src="{{ .image | absURL }}" alt="feature image" class="w-full h-auto rounded-lg" />
+              <img src="{{ .image | absURL }}" alt="{{ if eq site.Language.Lang "es" }}Ilustración de {{ .title | replaceRE `\*+` "" | plainify }}{{ else }}Illustration of {{ .title | replaceRE `\*+` "" | plainify }}{{ end }}" title="{{ if eq site.Language.Lang "es" }}Función {{ .title | replaceRE `\*+` "" | plainify }}{{ else }}Feature {{ .title | replaceRE `\*+` "" | plainify }}{{ end }}" class="w-full h-auto rounded-lg" />
             {{ else }}
               <div class="bg-gray-200 p-8 rounded-lg text-center">No image: {{ .image }}</div>
             {{ end }}
@@ -72,7 +74,7 @@
             </ul>
             {{ with .button }}
               {{ if .enable }}
-                <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+                <a class="btn btn-primary mt-6" href="{{ .link | absURL }}" title="Acceder a: {{ .label }}" aria-label="{{ .label }}">
                   {{ .label }}
                   <i class="fa fa-arrow-right pl-2"></i>
                 </a>
@@ -148,4 +150,28 @@
     {{ end }}
   {{ end }}
   <!-- /Testimonials -->
+
+  <!-- Call to action from page frontmatter -->
+  {{ with .Params.call_to_action }}
+    <section class="mb-28">
+      <div class="container">
+        <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-xl px-4 py-16 xl:p-20">
+          <div class="row items-center justify-between">
+            <div class="md:col-12 text-center">
+              <h2 class="mb-2">{{ .title | markdownify }}</h2>
+              <p class="mb-6">{{ .content | markdownify }}</p>
+              {{ with .button }}
+                {{ if .enable }}
+                  <a class="btn btn-primary" href="{{ .link | absURL }}" title="Acceder a: {{ .label }}" aria-label="{{ .label }}">
+                    {{ .label }}
+                  </a>
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Call to action -->
 {{ end }}

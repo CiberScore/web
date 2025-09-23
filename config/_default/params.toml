@@ -35,11 +35,7 @@ copyright = "CiberScore" #"Designed & Developed by [Zeon Studio](https://zeon.st
 enable = false
 preloader = "" # use jpg, png, svg or gif format.
 
-# Navigation button
-[navigation_button]
-enable = true
-label = "Acceder a la plataforma"
-link = "https://app.ciberscore.es"
+# Navigation button - now configured per language in languages.toml
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
