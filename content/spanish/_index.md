@@ -69,7 +69,7 @@ features:
 
   - title: "**Centro de vulnerabilidades**"
     image: "/images/vulnerabilities.png"
-    content: "**CiberScore detecta y te ayuda a mitigar vulnerabilidades** antes de que se conviertan en incidentes. Recibe guías detalladas, parches automáticos y monitoreo post-mitigación."
+    content: "**CiberScore detecta y te ayuda a mitigar vulnerabilidades** antes de que se conviertan en incidentes."
     bulletpoints:
       - "**Detección proactiva** de CVEs y vulnerabilidades 0-day"
       - "**Priorización inteligente** basada en criticidad y exposición"

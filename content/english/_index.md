@@ -69,7 +69,7 @@ features:
 
   - title: "**Vulnerability center**"
     image: "/images/vulnerabilities.png"
-    content: "**CiberScore detects and helps you mitigate vulnerabilities** before they become incidents. Receive detailed guides, automatic patches, and post-mitigation monitoring."
+    content: "**CiberScore detects and helps you mitigate vulnerabilities** before they become incidents."
     bulletpoints:
       - "**Proactive detection** of CVEs and 0-day vulnerabilities"
       - "**Intelligent prioritization** based on criticality and exposure"
