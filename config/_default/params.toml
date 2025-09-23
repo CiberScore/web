@@ -62,8 +62,8 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["ciberseguridad", "PYMES", "pentesting automático", "monitoreo credenciales", "cumplimiento NIS2", "ISO27001", "detección vulnerabilidades", "seguridad empresarial", "IA ciberseguridad", "protección datos", "dark web monitoring", "gestión activos", "intrusion detection", "cybersecurity SME", "automated pentesting", "credential monitoring"]
-description = "CiberScore: Plataforma de ciberseguridad con IA para PYMEs. Pentesting automático, monitoreo 24/7 de credenciales, cumplimiento NIS2/ISO27001 obligatorio, gestión de activos y detección de vulnerabilidades. Prueba gratuita 30 días."
+keywords = ["ciberseguridad", "PYMES", "pentesting automático", "monitoreo credenciales", "cumplimiento NIS2", "ISO27001", "detección vulnerabilidades", "seguridad empresarial", "IA ciberseguridad", "protección datos", "monitoreo filtraciones", "gestión activos", "intrusion detection", "cybersecurity SME", "automated pentesting", "credential monitoring"]
+description = "CiberScore: Plataforma de ciberseguridad con IA para PYMEs. Pentesting automático, monitoreo 24/7 de credenciales, cumplimiento NIS2/ISO27001 obligatorio, gestión de activos y detección de vulnerabilidades."
 author = "CiberScore"
 twitter = ""
 image = "images/logo.png"

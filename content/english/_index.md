@@ -28,9 +28,9 @@ features:
 
   - title: "**Credential breach monitoring**"
     image: "/images/service-2.png"
-    content: "**24/7 monitoring** of the dark web and compromised databases. We alert you **in real-time** when your company or employee credentials appear in breaches."
+    content: "**24/7 monitoring** of compromised databases and breaches. We alert you **in real-time** when your company or employee credentials appear in breaches."
     bulletpoints:
-      - "**Continuous monitoring** of dark web, pastes, and leaked databases"
+      - "**Continuous monitoring** of breaches and compromised databases"
       - "**Instant alerts** when compromised credentials are detected"
       - "**Protection for all employees** - corporate and personal emails"
       - "**Central dashboard** for security incident management"
@@ -85,7 +85,7 @@ features:
 # Call to action
 call_to_action:
   title: "**Ready to protect your business?**"
-  content: "**Join 500+ SMEs** that already trust CiberScore for their cybersecurity. **30-day trial** available."
+  content: "**Protect your business** with the most advanced cybersecurity platform for SMEs."
   image: "/images/cta.png"
   button:
     enable: true

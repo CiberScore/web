@@ -28,9 +28,9 @@ features:
 
   - title: "**Monitorización de filtraciones**"
     image: "/images/service-2.png"
-    content: "**Monitoreo 24/7** de la dark web y bases de datos comprometidas. Te alertamos **en tiempo real** cuando las credenciales de tu empresa o empleados aparecen en filtraciones."
+    content: "**Monitoreo 24/7** de bases de datos comprometidas y filtraciones. Te alertamos **en tiempo real** cuando las credenciales de tu empresa o empleados aparecen en filtraciones."
     bulletpoints:
-      - "**Monitoreo continuo** de dark web, pastes y bases de datos filtradas"
+      - "**Monitoreo continuo** de filtraciones y bases de datos comprometidas"
       - "**Alertas instantáneas** cuando se detectan credenciales comprometidas"
       - "**Protección de todos los empleados** - emails corporativos y personales"
       - "**Dashboard central** para gestión de incidentes de seguridad"
@@ -85,7 +85,7 @@ features:
 # Call to action
 call_to_action:
   title: "**¿Listo para proteger tu negocio?**"
-  content: "**Únete a más de 500+ PYMEs** que ya confían en CiberScore para su ciberseguridad. **Prueba de 30 días** disponible."
+  content: "**Protege tu negocio** con la plataforma de ciberseguridad más avanzada para PYMEs."
   image: "/images/cta.png"
   button:
     enable: true
