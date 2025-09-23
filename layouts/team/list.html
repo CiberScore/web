@@ -1,12 +1,99 @@
 {{ define "main" }}
-  <section class="section-sm">
+  <style>
+    .team-section {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .team-cta {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  </style>
+
+  <!-- Page Header -->
+  <section class="section pt-14">
     <div class="container">
       <div class="row justify-center">
-        <div class="md:col-10 lg:col-7 text-center">
-          <h2 class="h3 mb-6">{{ .Title }}</h2>
-          <div class="content">{{ .Content }}</div>
+        <div class="lg:col-10 text-center">
+          <h1 class="mb-4 text-h3 lg:text-h1">{{ .Title | markdownify }}</h1>
+          <div class="content mb-8">{{ .Content }}</div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Team Section -->
+  {{ with .Params.team }}
+    {{ if .enable }}
+      <section class="team-section">
+        <div class="container">
+          <div class="row justify-center">
+            <div class="lg:col-10 text-center mb-8">
+              <h2 class="mb-2 text-h2">{{ .title | markdownify }}</h2>
+              <p class="text-lg text-light">{{ .subtitle | markdownify }}</p>
+            </div>
+          </div>
+
+          <div class="row">
+            {{ range .team_members }}
+              <div class="lg:col-4 md:col-6 mb-8">
+                <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg p-8 text-center h-full">
+                  <div class="mb-6">
+                    {{ partial "image" (dict "Src" .image "Alt" .name "Size" "200x200" "Class" "rounded-full mx-auto") }}
+                  </div>
+                  <h3 class="h5 mb-2">{{ .name }}</h3>
+                  <p class="text-primary font-semibold mb-4">{{ .designation }}</p>
+                  {{ if .description }}
+                    <p class="text-light mb-6">{{ .description | markdownify }}</p>
+                  {{ end }}
+
+                  {{ if .social }}
+                    <div class="flex justify-center space-x-4">
+                      {{ range .social }}
+                        <a class="text-dark hover:text-primary dark:text-white dark:hover:text-darkmode-primary"
+                           href="{{ .link | safeURL }}"
+                           target="_blank"
+                           rel="noopener">
+                          <i class="{{ .icon }} text-xl"></i>
+                        </a>
+                      {{ end }}
+                    </div>
+                  {{ end }}
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+
+  <!-- Call to Action -->
+  {{ with .Params.call_to_action }}
+    {{ if .enable }}
+      <section class="team-cta bg-gradient">
+        <div class="container">
+          <div class="row items-center justify-between">
+            <div class="md:col-6 lg:col-5">
+              <h2 class="mb-4 text-h2">{{ .title | markdownify }}</h2>
+              <p class="mb-8 text-lg">{{ .content | markdownify }}</p>
+              {{ with .button }}
+                {{ if .enable }}
+                  <a class="btn btn-primary" href="{{ .link | safeURL }}">
+                    {{ .label }}
+                    <i class="fa fa-arrow-right pl-2"></i>
+                  </a>
+                {{ end }}
+              {{ end }}
+            </div>
+            <div class="md:col-6">
+              {{ if .image }}
+                {{ partial "image" (dict "Src" .image "Alt" "Join our team" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
 {{ end }}

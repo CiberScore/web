@@ -37,9 +37,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = false
-label = "get a quote"
-link = "contact"
+enable = true
+label = "Acceder a la plataforma"
+link = "https://app.ciberscore.es"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
@@ -62,8 +62,8 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Pymes", "Ciberseguridad"]
-description = "🔒 Protege tu negocio con soluciones de ciberseguridad automatizadas, asequibles y escalables. 🌐 Monitoreo 24/7, tecnología IoT y soporte continuo para que te enfoques en crecer. 🚀 Seguridad al alcance de todos, diseñada para PYMEs como la tuya."
+keywords = ["ciberseguridad", "PYMES", "pentesting automático", "monitoreo credenciales", "cumplimiento NIS2", "ISO27001", "detección vulnerabilidades", "seguridad empresarial", "IA ciberseguridad", "protección datos", "dark web monitoring", "gestión activos", "intrusion detection", "cybersecurity SME", "automated pentesting", "credential monitoring"]
+description = "CiberScore: Plataforma de ciberseguridad con IA para PYMEs. Pentesting automático, monitoreo 24/7 de credenciales, cumplimiento NIS2/ISO27001 obligatorio, gestión de activos y detección de vulnerabilidades. Prueba gratuita 30 días."
 author = "CiberScore"
 twitter = ""
 image = "images/og-image.png"

@@ -44,34 +44,30 @@
             {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }}
             {{ .Content }}
           </div>
-          <div class="row items-start justify-between">
+          <div class="border-t border-border pt-8 mt-8">
             {{ $tags:= .Params.tags }}
             {{ if $tags }}
-              <div class="lg:col-5 mb-10 flex items-center lg:mb-0">
-                <h5 class="mr-3">{{ T "tags" }} :</h5>
-                <ul>
-                  {{ range $i,$p:= $tags }}
-                    <li class="inline-block">
-                      <a
-                        class="bg-theme-light hover:bg-primary dark:bg-darkmode-theme-light dark:hover:bg-darkmode-primary dark:hover:text-dark m-1 block rounded px-3 py-1 hover:text-white"
-                        href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
-                        {{ . | humanize }}
-                      </a>
-                    </li>
-                  {{ end }}
-                </ul>
+              <div class="mb-6">
+                <div class="flex items-center flex-wrap">
+                  <h5 class="mr-4 mb-2 text-sm font-medium">{{ T "tags" }}:</h5>
+                  <ul class="flex flex-wrap gap-2">
+                    {{ range $i,$p:= $tags }}
+                      <li>
+                        <a
+                          class="bg-theme-light hover:bg-primary dark:bg-darkmode-theme-light dark:hover:bg-darkmode-primary dark:hover:text-dark rounded-full px-3 py-1 text-sm transition-colors hover:text-white"
+                          href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
+                          {{ . | humanize }}
+                        </a>
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
               </div>
             {{ end }}
-            <div class="lg:col-4 flex items-center">
+            <div class="flex justify-center">
               {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" (T "share") "Whatsapp" false "Telegram" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false) }}
             </div>
           </div>
-          <!-- comments -->
-          {{ if site.Config.Services.Disqus.Shortname }}
-            <div class="mt-20">
-              {{ template "_internal/disqus.html" . }}
-            </div>
-          {{ end }}
         </article>
       </div>
 

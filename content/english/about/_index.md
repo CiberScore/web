@@ -1,22 +1,28 @@
 ---
-title: "About Us: Accessible Cybersecurity Innovation"
-#meta_title: "About Us | Innovative Cybersecurity Solutions for SMEs"
-description: "Discover how we combine IoT technology, accessibility and a hybrid working model from the Universidad Rey Juan Carlos to offer scalable and affordable cybersecurity solutions tailored to the needs of SMEs."
-#image: "/images/avatar.png"
+title: "About us"
+meta_title: "About Us | CiberScore - Cybersecurity for SMEs"
+description: "We develop AI-powered automated cybersecurity solutions from Universidad Rey Juan Carlos to make enterprise protection accessible."
 draft: false
 ---
-<div style="text-align: left">
-In our mission to transform cybersecurity, we combine innovation, accessibility and an approach focused on the needs of SMEs.
 
-We operate from the Universidad Rey Juan Carlos, at the Escuela Técnica Superior de Ingeniería Informática, where we combine academic knowledge with practical experience to develop advanced, scalable and affordable solutions.
+## AI-powered automated cybersecurity
 
-Our working model is hybrid, combining physical presence in a leading research environment with the flexibility of online work. This allows us to adapt to our clients' needs and offer them continuous support through digital platforms.
+We develop advanced solutions from **Universidad Rey Juan Carlos** that make cybersecurity **accessible and effective** for businesses of all sizes.
 
-Our proposition:
+## Our approach
 
-- Advanced automation: IoT technology for always-on security.
-- Accessibility: A SaaS model that reduces costs and democratizes cybersecurity.
-- Scalability and customization: We adapt our solutions to each business, regardless of its size.
+**Intelligent automation**
+AI technology that works 24/7 without human intervention
 
-We are more than a cybersecurity company; we are the ally that makes protecting your business simple, effective and affordable.
-</div>
+**Simplified compliance**
+We automate NIS2 and ISO27001 compliance
+
+**Academic backing**
+Continuous research and development from university environment
+
+**Accessibility**
+SaaS model that democratizes enterprise cybersecurity
+
+---
+
+We transform cybersecurity complexity into **simple and automatic protection** for your business.

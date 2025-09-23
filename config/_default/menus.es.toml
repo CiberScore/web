@@ -11,20 +11,20 @@ name = "Sobre nosotros"
 url = "/sobre-nosotros"
 weight = 2
 
-#[[main]]
-#name = "Blog"
-#url = "/blog"
-#weight = 3
+# [[main]]
+# name = "Blog"
+# url = "/blog"
+# weight = 3
 
 [[main]]
 name = "Equipo"
 url = "/equipo"
-weight = 3
+weight = 4
 
 [[main]]
 name = "Contacto"
 url = "/contacto"
-weight = 4
+weight = 5
 
 # footer menu
 [[footer]]
