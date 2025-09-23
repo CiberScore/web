@@ -66,7 +66,7 @@ keywords = ["ciberseguridad", "PYMES", "pentesting automático", "monitoreo cred
 description = "CiberScore: Plataforma de ciberseguridad con IA para PYMEs. Pentesting automático, monitoreo 24/7 de credenciales, cumplimiento NIS2/ISO27001 obligatorio, gestión de activos y detección de vulnerabilidades. Prueba gratuita 30 días."
 author = "CiberScore"
 twitter = ""
-image = "images/og-image.png"
+image = "images/logo.png"
 
 
 # site verifications
