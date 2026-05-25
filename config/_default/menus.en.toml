@@ -41,3 +41,8 @@ weight = 2
 name = "Privacy Policy"
 url = "/privacy-policy"
 weight = 3
+
+[[footer]]
+name = "Terms and Conditions"
+url = "/terms-conditions"
+weight = 4
