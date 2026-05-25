@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "**CiberScore**: La plataforma de ciberseguridad que tu PYME necesita"
-  content: "**Protección automatizada 24/7** con tecnología de IA. Monitoreo en tiempo real, cumplimiento NIS2/ISO27001 y pentesting automático."
+  title: "**CiberScore**: La plataforma que automatiza la ciberseguridad verificable para PYMEs"
+  content: "**Protección automatizada 24/7** con tecnología de IA. Monitoreo en tiempo real, cumplimiento ENS/NIS2/ISO27001 y pentesting automático."
   image: ""
   button:
     enable: true

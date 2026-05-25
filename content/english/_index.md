@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "**CiberScore**: The cybersecurity platform your SME needs"
+  title: "**CiberScore**:  The platform that automates verifiable cybersecurity for SMEs"
   content: "**24/7 Automated Protection** with AI Technology. Real-time monitoring, NIS2/ISO27001 compliance, and automatic pentesting."
   image: ""
   button:
