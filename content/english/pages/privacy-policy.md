@@ -1,7 +1,7 @@
 ---
 Title: "Privacy Policy"
 Description: "CiberScore Seguridad SL Website Privacy Policy"
-Date: 2025-05-09
+Date: 2026-05-09
 Draft: false
 ---
 

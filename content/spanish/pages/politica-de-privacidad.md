@@ -1,7 +1,7 @@
 ---
 title: "Política de Privacidad"
 description: "Política de privacidad de la web CiberScore Seguridad SL"
-date: 2025-05-09
+date: 2026-05-09
 draft: false
 ---
 
