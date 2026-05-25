@@ -1,3 +1,11 @@
+---
+title: "Terms and Conditions"
+description: "CiberScore website terms and conditions"
+date: 2026-05-25
+draft: false
+slug: "terms-conditions"
+---
+
 # TERMS AND CONDITIONS
 _Last updated: May 2026_
 
