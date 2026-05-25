@@ -1,6 +1,6 @@
 ---
 title: "NIS2: La nueva directiva de ciberseguridad obligatoria desde octubre 2024"
-meta_title: "Directiva NIS2 obligatoria 2024 | Cumplimiento ciberseguridad EU"
+meta_title: "Directiva NIS2 obligatoria 2026 | Cumplimiento ciberseguridad EU"
 description: "Todo lo que necesitas saber sobre la directiva NIS2, obligatoria desde octubre 2024. Sectores afectados, requisitos de cumplimiento y sanciones."
 date: 2024-12-15T09:00:00Z
 image: "/images/blog/nis2-directive.jpg"

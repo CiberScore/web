@@ -1,6 +1,6 @@
 ---
 title: "NIS2: The new mandatory cybersecurity directive since October 2024"
-meta_title: "NIS2 Directive mandatory 2024 | EU cybersecurity compliance"
+meta_title: "NIS2 Directive mandatory 2026 | EU cybersecurity compliance"
 description: "Everything you need to know about the NIS2 directive, mandatory since October 2024. Affected sectors, compliance requirements and sanctions."
 date: 2024-12-15T09:00:00Z
 image: "/images/blog/nis2-directive.jpg"

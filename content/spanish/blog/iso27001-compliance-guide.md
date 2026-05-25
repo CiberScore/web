@@ -1,6 +1,6 @@
 ---
 title: "ISO27001: Guía completa para el cumplimiento normativo en 2024"
-meta_title: "ISO27001 Guía cumplimiento 2024 | Certificación ciberseguridad"
+meta_title: "ISO27001 Guía cumplimiento 2026 | Certificación ciberseguridad"
 description: "Guía completa sobre ISO27001, la norma internacional de seguridad de la información. Requisitos, beneficios y proceso de certificación."
 date: 2024-12-10T09:00:00Z
 image: "/images/blog/iso27001-guide.jpg"

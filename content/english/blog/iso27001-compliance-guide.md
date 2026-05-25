@@ -1,6 +1,6 @@
 ---
 title: "ISO27001: Complete guide for regulatory compliance in 2024"
-meta_title: "ISO27001 Compliance Guide 2024 | Cybersecurity certification"
+meta_title: "ISO27001 Compliance Guide 2026 | Cybersecurity certification"
 description: "Complete guide on ISO27001, the international information security standard. Requirements, benefits and certification process."
 date: 2024-12-10T09:00:00Z
 image: "/images/blog/iso27001-guide.jpg"
