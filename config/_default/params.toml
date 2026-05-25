@@ -1,9 +1,9 @@
 #################### default parameters ############################
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
-favicon = "images/favicon.png"
+favicon = "images/favicon-nuevo-verde.svg"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
-logo = "images/logo.png"
-logo_darkmode = "images/logo-darkmode.png"
+logo = "images/logo-nuevo-verde.svg"
+#logo_darkmode = "images/logo-nuevo-verde.svg"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "160px"
@@ -62,7 +62,7 @@ keywords = ["ciberseguridad", "PYMES", "pentesting automático", "monitoreo cred
 description = "CiberScore: Plataforma de ciberseguridad con IA para PYMEs. Pentesting automático, monitoreo 24/7 de credenciales, cumplimiento NIS2/ISO27001 obligatorio, gestión de activos y detección de vulnerabilidades."
 author = "CiberScore"
 twitter = ""
-image = "images/logo.png"
+image = "images/logo-nuevo-verde.svg"
 
 
 # site verifications
