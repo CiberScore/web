@@ -12,12 +12,11 @@ Draft: false
 
 ### Postal Address
 
-```
-C/ Perú, 6 - Office 3
-Postal Code: 28290
-Las Rozas de Madrid
-Spain
-```
+  C/ Perú, 6 - Office 3
+  Postal Code: 28290
+  Las Rozas de Madrid
+  Spain
+
 
 ### Contact:
 
