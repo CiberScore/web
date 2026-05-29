@@ -30,7 +30,7 @@
           <div class="row justify-center">
             <div class="lg:col-10 text-center mb-8">
               <h2 class="mb-2 text-h2">{{ .title | markdownify }}</h2>
-              <p class="text-lg text-light">{{ .subtitle | markdownify }}</p>
+              <p class="text-lg text-light dark:text-darkmode-light">{{ .subtitle | markdownify }}</p>
             </div>
           </div>
 
@@ -42,9 +42,9 @@
                     <img src="{{ .image | absURL }}" alt="{{ if eq site.Language.Lang "es" }}Foto de {{ .name }}{{ else }}Photo of {{ .name }}{{ end }}" title="{{ if eq site.Language.Lang "es" }}{{ .name }} - Miembro del equipo{{ else }}{{ .name }} - Team member{{ end }}" class="w-48 h-48 rounded-full mx-auto object-cover" />
                   </div>
                   <h3 class="h5 mb-2">{{ .name }}</h3>
-                  <p class="text-primary font-semibold mb-4">{{ .designation }}</p>
+                  <p class="text-primary dark:text-darkmode-primary font-semibold mb-4">{{ .designation }}</p>
                   {{ if .description }}
-                    <p class="text-light mb-6">{{ .description | markdownify }}</p>
+                    <p class="text-light dark:text-darkmode-light mb-6">{{ .description | markdownify }}</p>
                   {{ end }}
 
                   {{ if .social }}
