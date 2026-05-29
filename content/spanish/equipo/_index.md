@@ -18,7 +18,7 @@ team:
       social:
         - name: "linkedin"
           icon: "fab fa-linkedin"
-          link: "https://www.linkedin.com/in/javier-ramos-a31311/"
+          link: "https://www.linkedin.com/in/javier-ramos-a31311"
 
     - name: "Sergio Fernández del Campo"
       image: "/images/team/sergio-fernandez.png"
@@ -27,7 +27,7 @@ team:
       social:
         - name: "linkedin"
           icon: "fab fa-linkedin"
-          link: "https://www.linkedin.com/in/sergiofernandezaddedvaluegroup/"
+          link: "https://www.linkedin.com/in/sergiofernandezaddedvaluegroup"
     
     - name: "Pablo Ruiz del Olmo"
       image: "/images/team/pablo-ruiz.jpg"
@@ -36,7 +36,7 @@ team:
       social:
         - name: "linkedin"
           icon: "fab fa-linkedin"
-          link: "https://www.linkedin.com/in/pablo-ruiz-3012902/"
+          link: "https://www.linkedin.com/in/pablo-ruiz-3012902"
 
     - name: "Isaac Lozano Osorio"
       image: "/images/team/isaac-lozano.jpg"
@@ -45,7 +45,7 @@ team:
       social:
         - name: "linkedin"
           icon: "fab fa-linkedin"
-          link: "https://www.linkedin.com/in/isaaclozanoosorio/"
+          link: "https://www.linkedin.com/in/isaaclozanoosorio"
 
     - name: "Raúl Martín Santamaría"
       image: "/images/team/raul-martin.png"
@@ -54,7 +54,7 @@ team:
       social:
         - name: "linkedin"
           icon: "fab fa-linkedin"
-          link: "https://www.linkedin.com/in/rmartinsanta/"
+          link: "https://www.linkedin.com/in/rmartinsanta"
 
     - name: "Sergio Pérez Peló"
       image: "/images/team/sergio-perez.jpg"
@@ -72,7 +72,7 @@ team:
       social:
         - name: "linkedin"
           icon: "fab fa-linkedin"
-          link: "https://www.linkedin.com/in/cesar-caceres-taladriz-5b85049/"
+          link: "https://www.linkedin.com/in/cesar-caceres-taladriz-5b85049"
           
     - name: "Alejandro Cañadas Fleury"
       image: "/images/team/alejandro-canadas.jpg"
@@ -90,7 +90,7 @@ team:
       social:
         - name: "linkedin"
           icon: "fab fa-linkedin"
-          link: "https://www.linkedin.com/in/pablo-romero-toro-a132a2330/"
+          link: "https://www.linkedin.com/in/pablo-romero-toro-a132a2330"
 
           
 # Call to action
