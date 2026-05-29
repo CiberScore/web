@@ -73,15 +73,6 @@ team:
         - name: "linkedin"
           icon: "fab fa-linkedin"
           link: "https://www.linkedin.com/in/cesar-caceres-taladriz-5b85049/"
-
-    - name: "Alejandro Cañadas Fleury"
-      image: "/images/team/alejandro-canadas.jpg"
-      designation: "Colaborador"
-      description: ""
-      social:
-        - name: "linkedin"
-          icon: "fab fa-linkedin"
-          link: "https://www.linkedin.com/in/alejandroca%C3%B1adasfleury"
           
     - name: "Alejandro Cañadas Fleury"
       image: "/images/team/alejandro-canadas.jpg"
