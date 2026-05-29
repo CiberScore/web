@@ -22,7 +22,7 @@ team:
 
     - name: "Sergio Fernández del Campo"
       image: "/images/team/sergio-fernandez.png"
-      designation: "CFO/CAO & Co-fundador"
+      designation: "CFO/CAO"
       description: ""
       social:
         - name: "linkedin"
@@ -31,7 +31,7 @@ team:
     
     - name: "Pablo Ruiz del Olmo"
       image: "/images/team/pablo-ruiz.jpg"
-      designation: "CPO/CSO & Fundador"
+      designation: "CPO/CSO"
       description: ""
       social:
         - name: "linkedin"
